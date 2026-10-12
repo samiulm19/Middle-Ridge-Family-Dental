@@ -86,7 +86,7 @@ export const NervousCareSection: React.FC<NervousCareSectionProps> = ({ onOpenBo
               className="relative rounded-2xl overflow-hidden aspect-[16/7] sm:aspect-[16/6] bg-white/10 border border-white/20 shadow-lg group"
             >
               <img
-                src="/images/clinic-chair.jpg"
+                src="./images/clinic-chair.jpg"
                 alt="Tranquil treatment suite with ceiling TV at Middle Ridge Family Dental"
                 className="w-full h-full object-cover object-center group-hover:scale-[1.02] transition-transform duration-500"
                 loading="lazy"

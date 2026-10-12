@@ -227,7 +227,7 @@ export const ContactFooter: React.FC<ContactFooterProps> = ({ onOpenBooking, onO
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 pb-8 border-b border-white/10">
             <div className="flex items-center gap-3">
               <img
-                src="/images/logo.jpeg"
+                src="./images/logo.jpeg"
                 alt="Middle Ridge Family Dental"
                 className="h-9 w-auto rounded bg-white p-1"
               />

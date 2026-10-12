@@ -36,7 +36,7 @@ export const DENTISTS: TeamMember[] = [
     credentials: 'MPH, DipSW, BDS',
     education: 'Bachelor of Dental Surgery (2011), Master of Public Health (La Trobe University), Diploma of Social Work (Federation University)',
     quote: 'I love creating confident smiles, it’s the best part of my job.',
-    image: '/team/dr-anish.jpg',
+    image: './team/dr-anish.jpg',
     bio: [
       'Graduated in 2011 with a Bachelor in Dental Surgery, Dr. Anish has also earned a Master’s degree in Public Health from La Trobe University and a Diploma in Social Work from Federation University in Melbourne.',
       'He is a dedicated professional who takes great pride in ensuring every patient receives the very best care. His warm, friendly personality and gentle manner have reassured countless nervous patients.',
@@ -59,7 +59,7 @@ export const DENTISTS: TeamMember[] = [
     credentials: 'BDS, ADC Certified',
     education: 'Bachelor of Dental Surgery (2012), Australian Dental Council (ADC) Certified',
     quote: 'Perfection may not be attainable, but if we chase perfection, we can catch excellence.',
-    image: '/team/dr-neha.jpg',
+    image: './team/dr-neha.jpg',
     bio: [
       'Dr. Neha completed her Bachelor in Dental Surgery in 2012, followed by successfully completing the rigorous Australian Dental Council (ADC) examinations.',
       'With over a decade of clinical experience, Dr. Neha treats every patient with deep care, empathy, honesty, and calm professionalism. She has proudly served the Toowoomba community since 2019.',
@@ -82,7 +82,7 @@ export const DENTISTS: TeamMember[] = [
     credentials: 'B. Oral Health in Dental Science, Master of Dentistry',
     education: 'Bachelor of Oral Health in Dental Science & Master of Dentistry, Griffith University (2019)',
     quote: 'Ensuring patients feel completely at ease in the chair is my highest clinical priority.',
-    image: '/team/dr-pooja.jpg',
+    image: './team/dr-pooja.jpg',
     bio: [
       'Dr. Pooja completed her Master of Dentistry and Bachelor of Oral Health at Griffith University on the Gold Coast in 2019.',
       'Born in South Africa, she moved to Australia when she was 6 years old and grew up right here in Toowoomba as a Fairholme girl — always considering Toowoomba her true home.',
@@ -104,7 +104,7 @@ export const DENTISTS: TeamMember[] = [
     credentials: 'B. Oral Health in Dental Health Science, Master of Dentistry',
     education: 'Bachelor of Oral Health & Master of Dentistry',
     quote: 'Listening to the patient and making a plan together leaves everyone clear, confident, and happy.',
-    image: '/team/dr-erick.jpg',
+    image: './team/dr-erick.jpg',
     bio: [
       'With a focused passion in aesthetic dentistry, preventative care, and periodontal (gum) health, Dr. Erick strongly believes in open communication and listening carefully to every patient.',
       'He ensures every patient has a clear understanding of the "what" and the "why" behind their options before any treatment begins.',
@@ -129,7 +129,7 @@ export const CLINICAL_ASSISTANTS: TeamMember[] = [
     role: 'Dental Assistant & Reception',
     credentials: 'Cert III in Dental Assisting',
     education: 'Qualified Dental Assistant',
-    image: '/team/mikayla.jpg',
+    image: './team/mikayla.jpg',
     bio: [
       'Mikayla is a qualified dental assistant with extensive clinical chairside and reception experience. She is dedicated to high patient care and ensuring every visitor feels warmly greeted and supported.',
     ],
@@ -141,7 +141,7 @@ export const CLINICAL_ASSISTANTS: TeamMember[] = [
     role: 'Dental Assistant',
     credentials: 'Cert III in Dental Assisting',
     education: 'Qualified Dental Assistant',
-    image: '/team/kiara.jpg',
+    image: './team/kiara.jpg',
     bio: [
       'Kiara loves working in a team that takes genuine care of every patient. She strives to make every appointment a reassuring, gentle experience.',
     ],
@@ -153,7 +153,7 @@ export const CLINICAL_ASSISTANTS: TeamMember[] = [
     role: 'Dental Assistant',
     credentials: 'Experienced Clinical Assistant',
     education: 'Senior Dental Assistant',
-    image: '/team/jamie.png',
+    image: './team/jamie.png',
     bio: [
       'With many years of experience across all areas of dental assisting, Jamie is passionate about quality care and making patients feel comfortable throughout their visits.',
     ],
@@ -165,7 +165,7 @@ export const CLINICAL_ASSISTANTS: TeamMember[] = [
     role: 'Dental Assistant',
     credentials: 'Experienced Clinical Assistant',
     education: 'Qualified Dental Assistant',
-    image: '/team/katie.jpg',
+    image: './team/katie.jpg',
     bio: [
       'Katie takes pride in maintaining a pristine, welcoming clinical environment and providing patient-centered care for visitors of all ages.',
     ],

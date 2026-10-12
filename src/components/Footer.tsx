@@ -14,11 +14,11 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPitchModal }) => {
           {/* Logo with transparent bg only */}
           <a href="/" className="flex items-center shrink-0" aria-label="Middle Ridge Family Dental Home">
             <img
-              src="/images/logo-transparent.png"
+              src="./images/logo-transparent.png"
               alt="Middle Ridge Family Dental"
               className="h-10 sm:h-11 w-auto object-contain"
               onError={(e) => {
-                (e.target as HTMLImageElement).src = '/images/logo.jpeg';
+                (e.target as HTMLImageElement).src = './images/logo.jpeg';
               }}
             />
           </a>

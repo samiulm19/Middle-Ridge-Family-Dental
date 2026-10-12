@@ -52,13 +52,13 @@ export const PaymentFundsSection: React.FC<PaymentFundsSectionProps> = ({ onOpen
 
             <div className="flex flex-wrap gap-2.5 items-center pt-2">
               <div className="h-11 px-3.5 bg-[#FAF8FC] border border-[#E2DAEB] rounded-xl flex items-center">
-                <img src="/images/zip.png" alt="Zip Money" className="h-4 w-auto object-contain" />
+                <img src="./images/zip.png" alt="Zip Money" className="h-4 w-auto object-contain" />
               </div>
               <div className="h-11 px-3.5 bg-[#FAF8FC] border border-[#E2DAEB] rounded-xl flex items-center">
-                <img src="/images/humm.jpg" alt="Humm" className="h-5 w-auto object-contain" />
+                <img src="./images/humm.jpg" alt="Humm" className="h-5 w-auto object-contain" />
               </div>
               <div className="h-11 px-3.5 bg-[#FAF8FC] border border-[#E2DAEB] rounded-xl flex items-center">
-                <img src="/images/afterpay.png" alt="Afterpay" className="h-4 w-auto object-contain" />
+                <img src="./images/afterpay.png" alt="Afterpay" className="h-4 w-auto object-contain" />
               </div>
               <span className="text-xs font-semibold px-3 py-2.5 rounded-xl bg-[#FAF8FC] border border-[#E2DAEB] text-[#1F172C]">
                 Amex
@@ -92,23 +92,23 @@ export const PaymentFundsSection: React.FC<PaymentFundsSectionProps> = ({ onOpen
             <div className="flex flex-wrap gap-2.5 items-center pt-2">
               {/* Defence Health */}
               <div className="h-11 px-3.5 bg-[#FAF8FC] border border-[#E2DAEB] rounded-xl flex items-center">
-                <img src="/images/defence-health.svg" alt="Defence Health" className="h-5 w-auto object-contain" />
+                <img src="./images/defence-health.svg" alt="Defence Health" className="h-5 w-auto object-contain" />
               </div>
               {/* NIB */}
               <div className="h-11 px-3.5 bg-[#FAF8FC] border border-[#E2DAEB] rounded-xl flex items-center">
-                <img src="/images/nib.png" alt="NIB" className="h-4 w-auto object-contain" />
+                <img src="./images/nib.png" alt="NIB" className="h-4 w-auto object-contain" />
               </div>
               {/* CBHS */}
               <div className="h-11 px-3.5 bg-[#FAF8FC] border border-[#E2DAEB] rounded-xl flex items-center">
-                <img src="/images/cbhs.png" alt="CBHS" className="h-4 w-auto object-contain" />
+                <img src="./images/cbhs.png" alt="CBHS" className="h-4 w-auto object-contain" />
               </div>
               {/* TUH */}
               <div className="h-11 px-3.5 bg-[#FAF8FC] border border-[#E2DAEB] rounded-xl flex items-center">
-                <img src="/images/tuh.svg" alt="TUH" className="h-4 w-auto object-contain" />
+                <img src="./images/tuh.svg" alt="TUH" className="h-4 w-auto object-contain" />
               </div>
               {/* Smile.com.au */}
               <div className="h-11 px-3.5 bg-[#FAF8FC] border border-[#E2DAEB] rounded-xl flex items-center">
-                <img src="/images/smile.png" alt="Smile.com.au" className="h-4 w-auto object-contain" />
+                <img src="./images/smile.png" alt="Smile.com.au" className="h-4 w-auto object-contain" />
               </div>
             </div>
           </motion.div>

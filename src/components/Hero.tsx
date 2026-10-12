@@ -26,7 +26,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
       {/* 03. Subtle Atmospheric Clinic Photographic Texture Layer */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-[0.035] mix-blend-multiply pointer-events-none filter grayscale contrast-125 [mask-image:linear-gradient(to_bottom,black_40%,transparent_100%)]"
-        style={{ backgroundImage: `url('/images/clinic-chair.jpg')` }}
+        style={{ backgroundImage: `url('./images/clinic-chair.jpg')` }}
         aria-hidden="true"
       />
 
@@ -133,7 +133,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
             {/* Sculpted Arch Photo Container with authentic clinic operatory */}
             <div className="relative rounded-t-[180px] sm:rounded-t-[220px] rounded-b-3xl overflow-hidden aspect-[4/5] bg-[#EBE3F2] shadow-2xl border-4 border-white">
               <img
-                src="/images/clinic-chair.jpg"
+                src="./images/clinic-chair.jpg"
                 alt="Inside the calm treatment room at Middle Ridge Family Dental"
                 className="w-full h-full object-cover object-center"
                 fetchPriority="high"

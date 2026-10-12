@@ -50,7 +50,7 @@ export const ComfortExperience: React.FC<ComfortExperienceProps> = ({ onOpenBook
             {/* Authentic Clinic Chair Image */}
             <div className="rounded-xl overflow-hidden relative aspect-[16/9] bg-slate-100 mt-2 border border-slate-100">
               <img
-                src="/images/clinic-chair.jpg"
+                src="./images/clinic-chair.jpg"
                 alt="Middle Ridge Family Dental treatment suite featuring ergonomic chair and ceiling display"
                 className="w-full h-full object-cover"
                 loading="lazy"
@@ -165,7 +165,7 @@ export const ComfortExperience: React.FC<ComfortExperienceProps> = ({ onOpenBook
 
           <div className="md:w-1/2 w-full rounded-xl overflow-hidden aspect-[16/10] bg-slate-200 border border-slate-100">
             <img
-              src="/images/clinic-waiting.jpg"
+              src="./images/clinic-waiting.jpg"
               alt="Middle Ridge Family Dental Southridge reception and waiting lounge"
               className="w-full h-full object-cover"
               loading="lazy"

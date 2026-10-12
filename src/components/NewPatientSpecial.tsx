@@ -26,7 +26,7 @@ export const NewPatientSpecial: React.FC<NewPatientSpecialProps> = ({ onOpenBook
           {/* Authentic Reception Photo */}
           <div className="lg:col-span-5 relative min-h-[300px] lg:min-h-full bg-[#EBE3F2] overflow-hidden">
             <img
-              src="/images/clinic-waiting.jpg"
+              src="./images/clinic-waiting.jpg"
               alt="Reception and comfortable waiting lounge at Middle Ridge Family Dental"
               className="w-full h-full object-cover object-center"
               loading="lazy"

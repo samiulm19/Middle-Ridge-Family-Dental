@@ -42,7 +42,7 @@ export const HealthFundsSection: React.FC<HealthFundsSectionProps> = ({ onOpenBo
             {/* Defence Health */}
             <div className="p-5 rounded-2xl bg-[#FAF9FD] border border-slate-100 flex flex-col items-center justify-center h-28 text-center hover:bg-white hover:shadow-sm transition-all">
               <img
-                src="/images/defence-health.svg"
+                src="./images/defence-health.svg"
                 alt="Defence Health Preferred Provider"
                 className="max-h-12 max-w-[130px] object-contain"
                 onError={(e) => {
@@ -55,7 +55,7 @@ export const HealthFundsSection: React.FC<HealthFundsSectionProps> = ({ onOpenBo
             {/* NIB */}
             <div className="p-5 rounded-2xl bg-[#FAF9FD] border border-slate-100 flex flex-col items-center justify-center h-28 text-center hover:bg-white hover:shadow-sm transition-all">
               <img
-                src="/images/nib.png"
+                src="./images/nib.png"
                 alt="NIB First Choice Preferred Provider"
                 className="max-h-10 max-w-[110px] object-contain"
                 onError={(e) => {
@@ -74,7 +74,7 @@ export const HealthFundsSection: React.FC<HealthFundsSectionProps> = ({ onOpenBo
             {/* TUH */}
             <div className="p-5 rounded-2xl bg-[#FAF9FD] border border-slate-100 flex flex-col items-center justify-center h-28 text-center hover:bg-white hover:shadow-sm transition-all">
               <img
-                src="/images/tuh.svg"
+                src="./images/tuh.svg"
                 alt="TUH Preferred Provider"
                 className="max-h-10 max-w-[110px] object-contain"
                 onError={(e) => {
@@ -150,13 +150,13 @@ export const HealthFundsSection: React.FC<HealthFundsSectionProps> = ({ onOpenBo
 
           <div className="flex flex-wrap items-center gap-4 sm:gap-8 pt-2">
             <div className="h-9 px-3 bg-slate-50 border border-slate-200/60 rounded-lg flex items-center">
-              <img src="/images/afterpay.png" alt="Afterpay" className="h-5 w-auto object-contain" />
+              <img src="./images/afterpay.png" alt="Afterpay" className="h-5 w-auto object-contain" />
             </div>
             <div className="h-9 px-3 bg-slate-50 border border-slate-200/60 rounded-lg flex items-center">
-              <img src="/images/zip.png" alt="Zip Money" className="h-5 w-auto object-contain" />
+              <img src="./images/zip.png" alt="Zip Money" className="h-5 w-auto object-contain" />
             </div>
             <div className="h-9 px-3 bg-slate-50 border border-slate-200/60 rounded-lg flex items-center">
-              <img src="/images/humm.jpg" alt="Humm" className="h-6 w-auto object-contain" />
+              <img src="./images/humm.jpg" alt="Humm" className="h-6 w-auto object-contain" />
             </div>
             <div className="text-xs font-semibold text-slate-600 bg-slate-50 px-3 py-2 rounded-lg border border-slate-200/60">
               SuperCare (Early Super Access for Major Dental)

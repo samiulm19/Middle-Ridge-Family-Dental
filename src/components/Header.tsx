@@ -36,12 +36,12 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBooking }) => {
             aria-label="Middle Ridge Family Dental Home"
           >
             <img
-              src="/images/logo-transparent.png"
+              src="./images/logo-transparent.png"
               alt="Middle Ridge Family Dental"
               className="h-11 sm:h-12 w-auto object-contain transition-transform group-hover:scale-[1.02]"
               onError={(e) => {
                 // Fallback to logo.jpeg if needed
-                (e.target as HTMLImageElement).src = '/images/logo.jpeg';
+                (e.target as HTMLImageElement).src = './images/logo.jpeg';
               }}
             />
           </a>

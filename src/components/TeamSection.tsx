@@ -130,7 +130,7 @@ export const TeamSection: React.FC<TeamSectionProps> = ({ onSelectDoctorToBook }
           >
             <div className="lg:col-span-7 relative min-h-[260px] sm:min-h-[320px] overflow-hidden bg-[#EBE3F2]">
               <img
-                src="/images/team-all.jpg"
+                src="./images/team-all.jpg"
                 alt="Middle Ridge Family Dental full team portrait"
                 className="w-full h-full object-cover object-center"
                 loading="lazy"
